@@ -33,20 +33,44 @@ function Home() {
 
 
       {/* NavBar */}
-      <div className="body-color h-[750px]">
+      <div className="body-color ">
         <NavBar />
         {/* Banner */}
-      <div className='border-4 p-12 h-[630px] flex justify-end items-center'>
-        <div className='border-4 border-[#b68b03] h-[400px] w-[30%] absolute z-10 left-80'></div>
-        <div className='border-4 w-[50%] h-[500px] relative'>
-        <img src={Background} alt="" width="100%" height="400px" />
+        <div className='border-4 p-12 h-[630px] flex justify-end items-center'>
+          <div className='border-4 border-[#b68b03] h-[400px] w-[30%] absolute z-10 left-80'></div>
+          <div className='border-4 w-[50%] h-[500px] relative'>
+            <img src={Background} alt="" width="100%" height="400px" />
+          </div>
         </div>
-      </div>
-      {/* Banner */}
+        {/* Banner */}
+        {/* Banner */}
+        <div className='border-4 p-12 h-[630px] flex justify-end items-center'>
+          <div className='border-4 w-[50%] h-[540px] absolute z-0 left-80'>
+            <img src={Background} alt="" width="100%" height="400px" />
+          </div>
+          <div className='border-4 border-[#b68b03] h-[400px] w-[30%] relative'></div>
+        </div>
+        {/* Banner */}
+        {/* Banner */}
+        {/* <div className='border-4 p-12 h-[630px] flex justify-end items-center'>
+          <div className='border-4 border-[#b68b03] h-[400px] w-[30%] absolute z-10 left-80'></div>
+          <div className='border-4 w-[50%] h-[500px] relative'>
+            <img src={Background} alt="" width="100%" height="400px" />
+          </div>
+        </div> */}
+        {/* Banner */}{/* Banner */}
+        {/* <div className='border-4 p-12 h-[630px] flex justify-end items-center'>
+          <div className='border-4 border-[#b68b03] h-[400px] w-[30%] absolute z-10 left-80'></div>
+          <div className='border-4 w-[50%] h-[500px] relative'>
+            <img src={Background} alt="" width="100%" height="400px" />
+          </div>
+        </div> */}
+        {/* Banner */}
+
       </div>
       {/* NavBar */}
 
-      
+
     </div>
   )
 }
